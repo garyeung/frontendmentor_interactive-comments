@@ -1,0 +1,80 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+    .blue-text {
+        @apply text-moderate-blue font-medium text-lg;
+    }
+
+    .red-text {
+        @apply text-soft-red font-medium text-lg;
+    }
+
+    .box {
+        @apply bg-white rounded-xl my-4 p-4 md:p-5; 
+    }
+
+    .blue-button {
+        @apply bg-moderate-blue text-white uppercase font-bold h-12 w-28 rounded-xl hover:opacity-50 active:opacity-50;
+    }
+
+    .button {
+        @apply hover:opacity-50 active:opacity-50 inline-flex items-center gap-x-1;
+    }
+
+    .content {
+        @apply text-grayish-blue w-full h-full;
+    }
+    .box--grid {  
+        @apply grid grid-cols-2 grid-rows-4 gap-4 md:grid-cols-12 md:grid-rows-3;
+    }
+    
+    .box__info { 
+       @apply col-span-2 row-span-1 md:col-span-8 md:col-start-2;
+     }
+    
+    .box__content { 
+        @apply col-span-2 row-span-2 md:row-start-2 md:col-span-11;
+     }
+    
+    .box__score { 
+        @apply col-span-1 row-span-1 md:col-start-1 md:row-start-1 md:row-span-3;
+     }
+    
+    .box__reply { 
+        @apply col-span-1 row-span-1 md:col-start-12 md:row-start-1;
+     }
+    
+    .box__item {
+        display: flex;
+    }
+
+    .maker {
+        @apply grid grid-cols-2 grid-rows-2 gap-y-2 md:grid-cols-11
+        md:gap-4;
+    }
+    
+    .maker__img {
+        @apply flex items-center md:justify-center;
+    }
+
+    .maker__editor {
+        @apply col-span-full row-start-1 row-span-2 md:col-start-2 md:col-span-8 md:row-span-full
+    }
+
+    .maker__button {
+        @apply flex justify-end col-span-2
+    }
+}
+
+body {
+    @apply bg-very-light-gray;
+}
+p {
+    font-size: 16px;
+}
+
+
+
+
