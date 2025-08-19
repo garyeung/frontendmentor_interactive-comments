@@ -38,8 +38,8 @@ Users should be able to:
 ![Component Structure](./Structure.jpg)
 
 ### Links
-- Solution URL: [Interactive Comments Solution](https://github.com/garyeung/Frontend-Mentor-Challenges/tree/master/interactive-comments-section-main)
-- Live Site URL: [Interactive Comments Live](https://garyeung.github.io/Frontend-Mentor-Challenges/interactive-comments-section-main)
+- Solution URL: [Interactive Comments Solution](https://github.com/garyeung/frontendmentor_interactive-comments)
+- Live Site URL: [Interactive Comments Live](https://frontendmentor-interactive-comments-dusky.vercel.app)
 
 ## My process
 
